@@ -18,3 +18,10 @@ Lista wszystkich User, Subscriber, SubscriberSMS oraz Client.
 python manage.py migrate_subscribers
 
 Migruje dane z modeli Subscriber i SubscriberSMS do User.
+
+4️⃣ migrate_duplicated_subscribers
+
+python manage.py migrate_duplicated_subscribers
+
+Aktualizuje pole gdpr_consent w istniejących Userach na podstawie nowszych danych z Subscriber i SubscriberSMS.
+Wartość decyduje obiekt o najnowszej dacie utworzenia.
