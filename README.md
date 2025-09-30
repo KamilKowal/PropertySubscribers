@@ -26,4 +26,4 @@ Migruje dane z modeli Subscriber i SubscriberSMS do User.
 python manage.py migrate_duplicated_subscribers
 
 Aktualizuje pole gdpr_consent w istniejących Userach na podstawie nowszych danych z Subscriber i SubscriberSMS.
-Wartość decyduje obiekt o najnowszej dacie utworzenia.
+O wartości decyduje obiekt o najnowszej dacie utworzenia.
