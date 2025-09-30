@@ -1,3 +1,5 @@
+Dostępne komendy:
+
 1️⃣ clean_and_init_all
 
 python manage.py clean_and_init_all
